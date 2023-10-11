@@ -1,0 +1,343 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html 
+{
+    scroll-behavior: smooth;
+    background-color: #fff;
+    color: black;
+    width:100%;
+    height: 100vh;
+    font-family: sans-serif,'Poppins';
+}
+.top_menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding:0rem 0rem 0rem 0.25rem;
+    background-color: #003f5a;
+    color:#fff;
+    font-weight: 400;
+    height: 2.25rem;
+    min-width: 61.25rem;
+    width: 100%;
+    font-size: 0.85rem;
+
+}
+.second_top_menu 
+{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 2.625rem;
+    padding: 0rem 1rem;
+    background-color: #f7f7f7;
+}
+.second_top_menu_left
+ {
+    display: flex; 
+    align-items: center; 
+    gap: 0.5rem; 
+    color:#151542;
+    font-size: 0.75rem;
+    
+}
+.second_top_menu_left1
+{
+    margin-right: 1rem;
+}
+.second_top_menu_right
+{
+    display: flex; 
+    align-items: center; 
+    gap: 1.5rem; 
+    width:fit-content;
+    height: 100%;
+}
+.third_top_menu
+{
+    align-items: center;
+    display: flex;
+    height: 5.25rem;
+    padding :0rem 2rem;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.heading1
+{
+    margin-right: 2.5rem;
+    position: relative;
+    font-size: 2rem;
+}
+.third_top_menu .categories
+{
+    display: flex;
+    align-items: center;
+    
+}
+/* .categories
+{
+    margin-right: 1rem; 
+    align-items: center;
+    box-sizing: border-box;
+     display: flex;
+    height: 50px;
+    justify-content: flex-start; 
+     min-width: 550px;
+    width: 100%;
+} */
+.nav_item
+{
+   font: 1rem 'Gantari';
+   color:#151542;
+    margin-right: 0.5rem;
+}
+ .downward-caret
+{
+   
+    display: inline-block;
+    transform: rotate(180deg);
+    margin-bottom: 0.3rem;
+    margin-right: 2rem;
+   font-size: 1rem;
+
+}
+.shop_container
+{
+    width:100%;
+    height: 50vh;
+    background-image:url(shop_container_img.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.explore_section
+{
+    
+    /* flex-direction: column; */
+    padding:0rem 0rem 2.5rem;
+    width:100%;
+    /* height: 100vh;  */
+}
+.heading_blue
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#151542;
+    font: 2rem 'Lora';
+    margin: 6.25rem 0rem 3.5rem;
+}
+.explore_section_categories
+{
+    box-sizing: initial;
+    display: flex;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+    z-index: 1;
+   margin-left: 5%;
+   color:#151542;
+   
+}
+
+.categories1 img,.categories2 img,.categories3 img,.categories4 img
+{
+    height: 70%;
+    max-width: 70%;
+    padding: 2%;
+}
+.categories1 p, .categories3 p
+{
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   padding-top: 7%;
+   padding-left: 13%;
+   
+}
+.categories2 p,.categories4 p
+{
+    padding-top: 7%;
+    padding-left: 19%;
+}
+.heading_blue_gem
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#151542;
+    font: 2rem 'Lora';
+    margin: 6.25rem 0rem 4rem;
+    margin-left: 5%;
+}
+.explore_gemstones_categories1,.explore_gemstones_categories2
+{
+    box-sizing: initial;
+    display: flex;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+    z-index: 1;
+    margin-left: 3.5%;
+    gap: 2%;
+   color:#151542;
+   background-color: #f7f7f7;
+
+   
+}
+.categories img
+{
+    height: 70%;
+    max-width: 70%;
+    padding: 2%;
+    border-radius: 15%;
+}
+.categories p
+{
+    display: flex;
+    align-items: center;
+    padding-top: 7%;
+   margin-left: 25%;
+}
+.p1a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+   margin-right: 50%;
+   width: auto;
+}
+.craft__content__section 
+{
+    background-color: #f7f7f7;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    width: 100%;
+    height: 100vh;
+    color: #151542;
+    padding: 2%;
+}
+.craft__section 
+{
+    width: 50%;
+    flex-grow: 1;
+    margin: 3% 1%;
+    font: 1.5rem 'Gatari';
+}
+.craft_heading
+{
+    font-weight: 200;
+}
+.craft__section p
+{
+    padding-top: 2%;
+    width: 100%;
+    font:0.875rem 'Gatari';
+    line-height: 150%;
+    font-weight: 100;
+}
+.craft__section__img 
+{
+    width: 70%;
+}
+.craft__section__img  img
+{
+    width: 100%;
+    height: 100%;
+}
+.insta__content__section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+    text-align: center;
+    background-color: #151542;
+    color:#fff;
+}
+.insta__content__section h1
+{
+    /* margin: 0.75%; */
+   font: 2.75rem 'Gatari';
+   font-weight: 300;
+   padding-bottom: 2.5%;
+}
+.insta__content__section p
+{
+  
+    /* margin: 0.75%; */
+   font: 1.25rem 'Gatari';
+   line-height: 1.75rem;
+   font-weight: 100;
+   padding-bottom: 2.5%;
+}
+.footer
+{
+   
+ 
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 70vh;
+    color: #151542;
+    padding:5% 1%;
+
+}
+.footer__section   a
+{
+    padding: 2%;
+    font:16px sans-serif;
+    color: #151542;
+}
+.footer__items
+{
+  padding: 2%;
+   column-count: 4;
+
+}
+.footer__item1  a,
+.footer__item2  a,
+.footer__item3  a,
+.footer__item4  a
+{
+    
+    display: block;
+    font:16px sans-serif;
+    color: #151542;
+}
+
+
+.eng__in__section  .eng__logo
+{
+    color: #151542;
+    background-color:#f7f7f7;
+    padding: 0.625rem 1.25rem;
+    margin-left: 1rem;
+    border-radius: 0.1875rem;
+    border: 0;
+    border: 1px solid black;
+    
+}
+
+.pak__section
+{
+    padding: 2%;
+    font:16px sans-serif;
+    color: #151542;
+}
